@@ -5,11 +5,11 @@ import time
 import datetime
 import os
 
-# Create data directory if it doesn't exist
-if not os.path.exists('data'):
-    os.makedirs('data')
+data_dir = os.path.join(os.path.dirname(__file__), '..', '..', 'data')
+if not os.path.exists(data_dir):
+    os.makedirs(data_dir)
 
-LOG_FILE = 'data/logs.json'
+LOG_FILE = os.path.join(data_dir, 'logs.json')
 SERVERS = {
     "payment": "http://127.0.0.1:5001/health",
     "inventory": "http://127.0.0.1:5002/health"
@@ -29,7 +29,7 @@ while True:
         
         try:
             start_time = time.time()
-            res = requests.get(url, timeout=2.0) # 2-second timeout
+            res = requests.get(url, timeout=4.0) 
             end_time = time.time()
 
             log_entry["status_code"] = res.status_code
@@ -39,12 +39,10 @@ while True:
         except requests.exceptions.RequestException as e:
             log_entry["status_code"] = "CRASHED"
             log_entry["response_body"] = str(e)
-        
-        # Append the log entry as a new line in the JSON log file
+
         with open(LOG_FILE, "a") as f:
             f.write(json.dumps(log_entry) + "\n")
 
         print(f"Logged: {log_entry['service']} status is {log_entry['status_code']}")
     
-    # Wait before the next round of checks
     time.sleep(3)
