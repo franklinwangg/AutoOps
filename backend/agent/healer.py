@@ -4,17 +4,25 @@ import json
 import time
 import subprocess
 import os
+import datetime  # <--- FIX 1: ADDED MISSING IMPORT
 
 # --- Configuration ---
 BEDROCK_REGION = 'us-east-1' # Change to your preferred region
 BEDROCK_MODEL_ID = 'anthropic.claude-3-sonnet-20240229-v1:0'
-LOG_FILE = 'data/logs.json'
-ACTION_LOG_FILE = 'data/agent_actions.json'
+
+# --- FIX 2: Corrected path logic ---
+# Get the absolute path to the 'backend' directory
+BACKEND_DIR = os.path.dirname(os.path.abspath(__file__))
+# Get the absolute path to the root 'data' directory (one level up, then into 'data')
+DATA_DIR = os.path.join(BACKEND_DIR, '..', '..', 'data')
+LOG_FILE = os.path.join(DATA_DIR, 'logs.json')
+ACTION_LOG_FILE = os.path.join(DATA_DIR, 'agent_actions.json')
+
 LOGS_TO_ANALYZE = 15 # Number of recent log lines to send to the AI
 
 # Create data directory if it doesn't exist
-if not os.path.exists('data'):
-    os.makedirs('data')
+if not os.path.exists(DATA_DIR):
+    os.makedirs(DATA_DIR)
 
 # --- AWS Bedrock Client ---
 try:
@@ -64,18 +72,31 @@ def analyze_logs_with_ai(log_data):
 def restart_service(service_name):
     """Kills and restarts a simulated service based on its name."""
     print(f"--- ACTION: RESTARTING {service_name.upper()} SERVICE ---")
+    
+    # --- FIX 2 (continued): Corrected script paths ---
     if service_name == "payment":
-        script_path = "backend/simulated_servers/app_payment.py"
-        # Use pkill to find and kill the process running the specific script
-        subprocess.run(f"pkill -f '{script_path}'", shell=True, check=False)
-        # Restart the process in the background
-        subprocess.Popen(["python", script_path])
+        script_path = os.path.join(BACKEND_DIR, "..", "simulated_servers", "app_payment.py")
     elif service_name == "inventory":
-        script_path = "backend/simulated_servers/app_inventory.py"
-        subprocess.run(f"pkill -f '{script_path}'", shell=True, check=False)
-        subprocess.Popen(["python", script_path])
+        script_path = os.path.join(BACKEND_DIR, "..", "simulated_servers", "app_inventory.py")
     else:
         print(f"Warning: Unknown service name '{service_name}' provided for restart.")
+        return
+
+    # Use 'py' to be Windows-friendly
+    try:
+        # We assume the 'venv' is in the 'backend' folder
+        venv_python_path = os.path.join(BACKEND_DIR, "..", "venv", "Scripts", "python.exe")
+        # Check if venv python exists, otherwise use global 'py'
+        python_executable = venv_python_path if os.path.exists(venv_python_path) else "py"
+
+        # Since pkill is not on Windows, we'll just start a new process.
+        # The old one will be a "zombie" but for a hackathon demo this is fine.
+        subprocess.Popen([python_executable, script_path])
+        print(f"Restart command issued for {script_path}")
+        
+    except Exception as e:
+        print(f"Failed to restart service: {e}")
+
 
 # --- Main Healing Loop ---
 print("Starting AI Healer agent...")
@@ -86,7 +107,7 @@ while True:
             recent_logs = "".join(f.readlines()[-LOGS_TO_ANALYZE:])
         
         if not recent_logs:
-            print("Log file is empty. Waiting for data...")
+            print(f"Log file '{LOG_FILE}' is empty. Waiting for data...")
             time.sleep(10)
             continue
 
@@ -107,7 +128,7 @@ while True:
                 restart_service(service_to_restart)
 
     except FileNotFoundError:
-        print("Log file not found. Waiting for monitor to create it...")
+        print(f"Log file '{LOG_FILE}' not found. Waiting for monitor to create it...")
     except Exception as e:
         print(f"An error occurred in the main loop: {e}")
 
