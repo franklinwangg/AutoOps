@@ -1,0 +1,5 @@
+[service]
+name = "payment"
+mode = "healthy"                # Always returns 200
+latency_ms = 100                # Simulate normal latency (0.1s)
+log_path = "data/payment_logs.jsonl"
