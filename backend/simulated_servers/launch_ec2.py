@@ -206,25 +206,19 @@ def launch_ec2_instance(service_name: str, config_filename: str) -> str:
     InstanceType="t3.micro",
     KeyName="autoops-key",  # your EC2 key pair name
     SecurityGroupIds=["sg-05b93c1804021efe6"],  # must allow inbound 5001
-    UserData="""#!/bin/bash
+    UserData=f"""#!/bin/bash
 exec > /home/ec2-user/startup.log 2>&1
 yum update -y
-yum install -y python3-pip -y
-pip3 install flask
+yum install -y python3-pip git -y
+pip3 install flask boto3 tomli
 
-cat << 'EOF' > /home/ec2-user/test_server.py
-from flask import Flask
-app = Flask(__name__)
+cd /home/ec2-user
+git clone https://github.com/Preet37/AutoOps.git
+cd AutoOps
+git checkout additional-functionality
+cd backend/simulated_servers
 
-@app.route('/')
-def index():
-    return "hello world from ec2"
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=3000)
-EOF
-
-nohup python3 /home/ec2-user/test_server.py > /home/ec2-user/test_server.log 2>&1 &
+nohup python3 service.py {service_name} {config_filename} > /home/ec2-user/service.log 2>&1 &
 """,
     TagSpecifications=[{
         "ResourceType": "instance",

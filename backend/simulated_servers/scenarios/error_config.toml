@@ -1,5 +1,4 @@
 [service]
-name = "inventory"
 mode = "error"                  # Always returns HTTP 500
 latency_ms = 200                # Slight delay before failure
 log_path = "data/inventory_logs.jsonl"

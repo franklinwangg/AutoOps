@@ -1,5 +1,4 @@
 [service]
-name = "inventory"
 mode = "crash"                  # Process exits immediately
 latency_ms = 0
 log_path = "data/inventory_logs.jsonl"
