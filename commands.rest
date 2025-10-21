@@ -1,0 +1,36 @@
+### SSH command
+ssh -i autoops-key-fixed.pem ec2-user@54.184.41.13
+
+### check what services are running
+sudo lsof -i -P -n | grep python
+
+
+### Security Group ID
+sg-05b93c1804021efe6
+
+### Authorize inbound traffic on port x 
+aws ec2 authorize-security-group-ingress `
+  --group-id sg-05b93c1804021efe6 `
+  --protocol tcp `
+  --port 5001 `
+  --cidr 0.0.0.0/0
+
+### View all running EC2 instances
+aws ec2 describe-instances `
+  --filters "Name=instance-state-name,Values=running" `
+  --query "Reservations[*].Instances[*].{ID:InstanceId,Name:Tags[?Key=='Name']|[0].Value,State:State.Name,IP:PublicIpAddress}" `
+  --output table
+
+### Terminate all EC2 instances
+aws ec2 terminate-instances `
+  --instance-ids $(aws ec2 describe-instances `
+  --filters "Name=instance-state-name,Values=running" `
+  --query "Reservations[*].Instances[*].InstanceId" `
+  --output text)
+
+
+### launch EC2 instance
+python .\launch_ec2.py app-inventory crash
+
+### view service.log
+cat service.log
