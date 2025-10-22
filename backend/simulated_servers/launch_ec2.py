@@ -79,7 +79,7 @@ exec > /home/ec2-user/startup.log 2>&1
 # --- System setup ---
 yum update -y
 yum install -y python3 python3-pip git -y
-pip3 install flask boto3
+pip3 install flask boto3 tomli
 
 # --- Clone your repository ---
 cd /home/ec2-user
@@ -93,8 +93,9 @@ git checkout additional-functionality
 cd backend/simulated_servers
 
 # --- Run your service ---
-nohup python3 service.py {service_name} {config_filename} > /home/ec2-user/service.log 2>&1 &
+nohup python3 service.py {service_name} {config_filename}.toml > /home/ec2-user/service.log 2>&1 &
 """,
+
     TagSpecifications=[{
         "ResourceType": "instance",
         "Tags": [{"Key": "Name", "Value": f"{service_name}-instance"}],
