@@ -21,65 +21,27 @@ class AutoOpsAgent:
         print("🚀 Launching EC2 instance...")
 
         user_data_script = """#!/bin/bash
-        cd /home/ec2-user
-        mkdir -p backend/agent
-        cd backend/agent
+# Update and install dependencies first
+yum update -y
+yum install -y python3 git
 
-        # clone or copy your project here if needed
-        # e.g., git clone https://github.com/YourRepo/AutoOps.git .
-        # --- Clone your repository ---
-        cd /home/ec2-user
-        git clone https://github.com/Preet37/AutoOps.git
-        cd AutoOps
+# Move to home directory
+cd /home/ec2-user
 
-        # --- Checkout the correct branch ---
-        git checkout additional-functionality
+# Clone your repo fresh
+git clone https://github.com/Preet37/AutoOps.git
+cd AutoOps
+git checkout additional-functionality
 
-        # --- Move into the service directory ---
-        cd backend/agent
+# Install Python dependencies
+pip3 install boto3 requests
 
-        # install dependencies
-        yum update -y
-        yum install -y python3 git
-        pip3 install boto3 requests
+# Start both services in background
+cd backend/agent
+nohup python3 monitor.py > /home/ec2-user/monitor.log 2>&1 &
+nohup python3 healer.py > /home/ec2-user/healer.log 2>&1 &
+"""
 
-        # start both processes in background
-        nohup python3 monitor.py > /home/ec2-user/monitor.log 2>&1 &
-        nohup python3 healer.py > /home/ec2-user/healer.log 2>&1 &
-        """
-
-        # instance = self.ec2.create_instances(
-        #     ImageId=self.ami_id,
-        #     InstanceType=self.instance_type,
-        #     KeyName=self.key_name,
-        #     MinCount=1,
-        #     MaxCount=1,
-        #     SecurityGroups=[self.security_group],
-        #     UserData=user_data_script,
-        #     TagSpecifications=[
-        #         {
-        #             "ResourceType": "instance",
-        #             "Tags": [{"Key": "Name", "Value": "autoops-agent"}]
-        #         }
-        #     ],
-        # )[0]
-        
-        
-        # instance = self.ec2.create_instances(
-        #     ImageId=self.ami_id,
-        #     InstanceType=self.instance_type,
-        #     KeyName=self.key_name,
-        #     MinCount=1,
-        #     MaxCount=1,
-        #     SecurityGroupIds=[self.security_group],  # ✅ keep this exactly like this
-        #     UserData=user_data_script,
-        #     TagSpecifications=[
-        #         {
-        #             "ResourceType": "instance",
-        #             "Tags": [{"Key": "Name", "Value": "autoops-agent"}]
-        #         }
-        #     ],
-        # )[0]
         
         instance = self.ec2.create_instances(
             ImageId=self.ami_id,
