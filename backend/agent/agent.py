@@ -22,7 +22,7 @@ def launch_ec2_instance(service_name: str, config_filename: str) -> str:
     MinCount=1,
     MaxCount=1,
     InstanceType="t3.micro",
-    KeyName="autoops-key",  # your EC2 key pair name
+    KeyName="my-ec2-key",  # your EC2 key pair name
     SecurityGroupIds=["sg-05b93c1804021efe6"],  # must allow inbound 5001
 #     UserData=f"""#!/bin/bash
 # exec > /home/ec2-user/startup.log 2>&1
