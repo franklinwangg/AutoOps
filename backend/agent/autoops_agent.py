@@ -35,8 +35,8 @@ git clone https://github.com/Preet37/AutoOps.git
 cd AutoOps
 git checkout additional-functionality
 
-# Install dependencies
-pip3 install boto3 requests
+# Install Python dependencies compatible with Amazon Linux 2's OpenSSL (1.0.2)
+pip3 install 'urllib3<2' 'requests<2.30' 'boto3<1.28' 'botocore<1.31'
 
 # Ensure ec2-user owns everything
 chown -R ec2-user:ec2-user /home/ec2-user
@@ -49,6 +49,7 @@ chmod 666 /home/ec2-user/monitor.log /home/ec2-user/healer.log
 sudo -u ec2-user -i bash -c 'cd /home/ec2-user/AutoOps/backend/agent && nohup python3 monitor.py > /home/ec2-user/monitor.log 2>&1 &'
 sudo -u ec2-user -i bash -c 'cd /home/ec2-user/AutoOps/backend/agent && nohup python3 healer.py > /home/ec2-user/healer.log 2>&1 &'
 """
+
 
 
 
