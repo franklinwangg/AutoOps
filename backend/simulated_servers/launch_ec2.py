@@ -93,7 +93,7 @@ git checkout additional-functionality
 cd backend/simulated_servers
 
 # --- Run your service ---
-nohup python3 service.py {service_name} {config_filename}.toml > /home/ec2-user/service.log 2>&1 &
+nohup python3 service.py {service_name} {config_filename} > /home/ec2-user/service.log 2>&1 &
 """,
 
     TagSpecifications=[{
