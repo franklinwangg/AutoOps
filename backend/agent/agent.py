@@ -47,15 +47,60 @@ def launch_ec2_instance(service_name: str, config_filename: str) -> str:
 # nohup python3 healer.py > /home/ec2-user/healer.log 2>&1 &
 # nohup python3 monitor.py > /home/ec2-user/monitor.log 2>&1 &
 # """,
-    UserData=f"""#!/bin/bash
+        UserData=f"""#!/bin/bash
 exec > /home/ec2-user/startup.log 2>&1
 
 # --- System setup ---
 yum update -y
-yum install -y python3 python3-pip git -y
+amazon-linux-extras enable python3.8
+yum install -y python3.8 python3.8-pip git aws-cli -y
 
-# --- Install Python dependencies ---
-pip3 install flask boto3 requests
+# --- Install Python dependencies (using 3.8) ---
+pip3.8 install --upgrade pip
+pip3.8 install flask boto3 requests
+
+# --- AWS IAM role setup for Bedrock ---
+ROLE_NAME="AutoOpsEC2BedrockRole"
+PROFILE_NAME="AutoOpsEC2Profile"
+
+# Create trust policy for EC2
+cat > /home/ec2-user/trust-policy.json <<'EOF'
+{{
+  "Version": "2012-10-17",
+  "Statement": [
+    {{
+      "Effect": "Allow",
+      "Principal": {{
+        "Service": "ec2.amazonaws.com"
+      }},
+      "Action": "sts:AssumeRole"
+    }}
+  ]
+}}
+EOF
+
+# Create IAM role if it doesn't exist
+if ! aws iam get-role --role-name $ROLE_NAME >/dev/null 2>&1; then
+  aws iam create-role --role-name $ROLE_NAME \
+    --assume-role-policy-document file:///home/ec2-user/trust-policy.json
+  aws iam attach-role-policy --role-name $ROLE_NAME \
+    --policy-arn arn:aws:iam::aws:policy/AmazonBedrockFullAccess
+  aws iam attach-role-policy --role-name $ROLE_NAME \
+    --policy-arn arn:aws:iam::aws:policy/AmazonS3FullAccess
+fi
+
+# Create instance profile if needed
+if ! aws iam get-instance-profile --instance-profile-name $PROFILE_NAME >/dev/null 2>&1; then
+  aws iam create-instance-profile --instance-profile-name $PROFILE_NAME
+  aws iam add-role-to-instance-profile --instance-profile-name $PROFILE_NAME \
+    --role-name $ROLE_NAME
+fi
+
+# Get current instance ID and associate the profile
+INSTANCE_ID=$(curl -s http://169.254.169.254/latest/meta-data/instance-id)
+aws ec2 associate-iam-instance-profile \
+  --instance-id "$INSTANCE_ID" \
+  --iam-instance-profile Name=$PROFILE_NAME || true
 
 # --- Clone your repository ---
 cd /home/ec2-user
@@ -65,13 +110,18 @@ cd AutoOps
 # --- Checkout the correct branch ---
 git checkout additional-functionality
 
+# --- Create data directory ---
+mkdir -p /home/ec2-user/AutoOps/data
+chmod 777 /home/ec2-user/AutoOps/data
+
 # --- Move into the service directory ---
 cd backend/agent
 
-# --- Run your service ---
-nohup python3 healer.py > /home/ec2-user/healer.log 2>&1 &
-nohup python3 monitor.py > /home/ec2-user/monitor.log 2>&1 &
+# --- Run your services using Python 3.8 ---
+nohup python3.8 healer.py > /home/ec2-user/healer.log 2>&1 &
+nohup python3.8 monitor.py > /home/ec2-user/monitor.log 2>&1 &
 """,
+
 
 
     TagSpecifications=[{
