@@ -43,7 +43,9 @@ if len(sys.argv) < 3:
     sys.exit(1)
 
 SERVICE_NAME = sys.argv[1]
-MODE_FILE = sys.argv[2]  # e.g., healthy.toml, slow.toml, crash.toml
+# MODE_FILE = sys.argv[2]  # e.g., healthy.toml, slow.toml, crash.toml
+MODE_FILE = os.path.join(os.path.dirname(__file__), "scenarios", f"{sys.argv[2]}_config.toml")
+
 
 # -------------------------------------------------------------------
 # Load configuration from TOML
