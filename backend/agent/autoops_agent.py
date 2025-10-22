@@ -15,69 +15,115 @@ class AutoOpsAgent:
         self.security_group = "sg-05b93c1804021efe6"
 
         # self.security_group = ["sg-05b93c1804021efe6"]      # must allow inbound SSH + relevant ports
+        
+        
+
 
     def create_instance(self):
         """Launch EC2 with monitor + healer auto-start commands."""
-        print("🚀 Launching EC2 instance...")
+        
+        
+        instances = ec2.create_instances(
+    ImageId="ami-0e6af742d565ff61c",  # Amazon Linux 2 x86_64 for us-west-2
+    MinCount=1,
+    MaxCount=1,
+    InstanceType="t3.micro",
+    KeyName="autoops-key",  # your EC2 key pair name
+    SecurityGroupIds=["sg-05b93c1804021efe6"],  # must allow inbound 5001
+    UserData=f"""#!/bin/bash
+exec > /home/ec2-user/startup.log 2>&1
 
-        user_data_script = """#!/bin/bash
-set -e
-
-# Update and install dependencies
+# --- System setup ---
 yum update -y
-yum install -y python3 git
+yum install -y python3 python3-pip git -y
+pip3 install flask boto3 tomli
 
+# --- Clone your repository ---
 cd /home/ec2-user
-
-# Clone your repo cleanly
-rm -rf AutoOps || true
 git clone https://github.com/Preet37/AutoOps.git
 cd AutoOps
+
+# --- Checkout the correct branch ---
 git checkout additional-functionality
 
-# Install Python dependencies compatible with Amazon Linux 2's OpenSSL (1.0.2)
-pip3 install 'urllib3<2' 'requests<2.30' 'boto3<1.28' 'botocore<1.31'
+# --- Move into the service directory ---
+cd backend/simulated_servers
 
-# Ensure ec2-user owns everything
-chown -R ec2-user:ec2-user /home/ec2-user
+# --- Run your service ---
+nohup python3 healer.py > /home/ec2-user/healer.log 2>&1 &
+nohup python3 monitor.py > /home/ec2-user/healer.log 2>&1 &
 
-# Create logs and set permissions
-touch /home/ec2-user/monitor.log /home/ec2-user/healer.log
-chmod 666 /home/ec2-user/monitor.log /home/ec2-user/healer.log
+""",
 
-# Start services as ec2-user
-sudo -u ec2-user -i bash -c 'cd /home/ec2-user/AutoOps/backend/agent && nohup python3 monitor.py > /home/ec2-user/monitor.log 2>&1 &'
-sudo -u ec2-user -i bash -c 'cd /home/ec2-user/AutoOps/backend/agent && nohup python3 healer.py > /home/ec2-user/healer.log 2>&1 &'
-"""
+    TagSpecifications=[{
+        "ResourceType": "instance",
+        "Tags": [{"Key": "Name", "Value": f"{service_name}-instance"}],
+    }],
+    )
 
+    instance = instances[0]
+    INSTANCE_ID = instance.id
+        
+        
+#         print("🚀 Launching EC2 instance...")
+
+#         user_data_script = """#!/bin/bash
+# set -e
+
+# # Update and install dependencies
+# yum update -y
+# yum install -y python3 git
+
+# cd /home/ec2-user
+
+# # Clone your repo cleanly
+# rm -rf AutoOps || true
+# git clone https://github.com/Preet37/AutoOps.git
+# cd AutoOps
+# git checkout additional-functionality
+
+# # Install Python dependencies compatible with Amazon Linux 2's OpenSSL (1.0.2)
+# pip3 install 'urllib3<2' 'requests<2.30' 'boto3<1.28' 'botocore<1.31'
+
+# # Ensure ec2-user owns everything
+# chown -R ec2-user:ec2-user /home/ec2-user
+
+# # Create logs and set permissions
+# touch /home/ec2-user/monitor.log /home/ec2-user/healer.log
+# chmod 666 /home/ec2-user/monitor.log /home/ec2-user/healer.log
+
+# # Start services as ec2-user
+# sudo -u ec2-user -i bash -c 'cd /home/ec2-user/AutoOps/backend/agent && nohup python3 monitor.py > /home/ec2-user/monitor.log 2>&1 &'
+# sudo -u ec2-user -i bash -c 'cd /home/ec2-user/AutoOps/backend/agent && nohup python3 healer.py > /home/ec2-user/healer.log 2>&1 &'
+# """
 
 
 
 
         
-        instance = self.ec2.create_instances(
-            ImageId=self.ami_id,
-            InstanceType=self.instance_type,
-            KeyName=self.key_name,  # 👈 attaches your AWS keypair here
-            MinCount=1,
-            MaxCount=1,
-            SecurityGroupIds=[self.security_group],
-            UserData=user_data_script,
-            TagSpecifications=[
-                {
-                    "ResourceType": "instance",
-                    "Tags": [{"Key": "Name", "Value": "autoops-agent"}]
-                }
-            ],
-        )[0]
+#         instance = self.ec2.create_instances(
+#             ImageId=self.ami_id,
+#             InstanceType=self.instance_type,
+#             KeyName=self.key_name,  # 👈 attaches your AWS keypair here
+#             MinCount=1,
+#             MaxCount=1,
+#             SecurityGroupIds=[self.security_group],
+#             UserData=user_data_script,
+#             TagSpecifications=[
+#                 {
+#                     "ResourceType": "instance",
+#                     "Tags": [{"Key": "Name", "Value": "autoops-agent"}]
+#                 }
+#             ],
+#         )[0]
 
 
 
-        print(f"✅ Instance launching: {instance.id}")
-        instance.wait_until_running()
-        instance.reload()
-        print(f"✅ EC2 running at: {instance.public_dns_name or instance.public_ip_address}")
-        return instance
+#         print(f"✅ Instance launching: {instance.id}")
+#         instance.wait_until_running()
+#         instance.reload()
+#         print(f"✅ EC2 running at: {instance.public_dns_name or instance.public_ip_address}")
+#         return instance
 
     def describe_instances(self):
         """List all running AutoOps instances."""
