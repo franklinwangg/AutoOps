@@ -1,4 +1,4 @@
-[service]
-mode = "healthy"                # Always returns 200
-latency_ms = 100                # Simulate normal latency (0.1s)
-log_path = "data/payment_logs.jsonl"
+[behavior]
+status = "healthy" # Always returns HTTP 500
+delay = 100 # Slight delay before failure
+crash = false
