@@ -23,14 +23,17 @@ class AutoOpsAgent:
         user_data_script = """#!/bin/bash
 set -e
 
-# Update and install dependencies first
+# Update and install dependencies
 yum update -y
 yum install -y python3 git
 
 # Move to home directory
 cd /home/ec2-user
 
-# Clone your repo fresh
+# Clone your repo (fresh)
+if [ -d "AutoOps" ]; then
+  rm -rf AutoOps
+fi
 git clone https://github.com/Preet37/AutoOps.git
 cd AutoOps
 git checkout additional-functionality
@@ -38,11 +41,23 @@ git checkout additional-functionality
 # Install Python dependencies
 pip3 install boto3 requests
 
-# ✅ Start both services from the correct path
+# Ensure ec2-user owns all files (important for nohup logs)
+chown -R ec2-user:ec2-user /home/ec2-user
+
+# Switch to ec2-user before running the Python scripts
+sudo -u ec2-user bash << 'EOF'
 cd /home/ec2-user/AutoOps/backend/agent
+
+# Create empty logs with correct permissions
+touch /home/ec2-user/monitor.log /home/ec2-user/healer.log
+chmod 666 /home/ec2-user/monitor.log /home/ec2-user/healer.log
+
+# Start both services in background
 nohup python3 monitor.py > /home/ec2-user/monitor.log 2>&1 &
 nohup python3 healer.py > /home/ec2-user/healer.log 2>&1 &
+EOF
 """
+
 
 
         
