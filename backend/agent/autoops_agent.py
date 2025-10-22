@@ -21,6 +21,8 @@ class AutoOpsAgent:
         print("🚀 Launching EC2 instance...")
 
         user_data_script = """#!/bin/bash
+set -e
+
 # Update and install dependencies first
 yum update -y
 yum install -y python3 git
@@ -36,11 +38,12 @@ git checkout additional-functionality
 # Install Python dependencies
 pip3 install boto3 requests
 
-# Start both services in background
-cd backend/agent
+# ✅ Start both services from the correct path
+cd /home/ec2-user/AutoOps/backend/agent
 nohup python3 monitor.py > /home/ec2-user/monitor.log 2>&1 &
 nohup python3 healer.py > /home/ec2-user/healer.log 2>&1 &
 """
+
 
         
         instance = self.ec2.create_instances(
