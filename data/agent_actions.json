@@ -488,3 +488,790 @@
 {"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-19T10:44:40.440505"}
 {"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-19T10:44:57.022742"}
 {"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-19T10:45:13.304847"}
+{"action": "restart", "service_name": "payment,inventory", "reason": "Services are crashed with multiple CRASHED logs.", "timestamp": "2025-10-22T13:19:18.854827"}
+{"action": "restart", "service_name": "payment,inventory", "reason": "Services are consistently crashing with CRASHED status codes.", "timestamp": "2025-10-22T13:19:35.358757"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:19:51.873213"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is consistently crashing with CRASHED status codes.", "timestamp": "2025-10-22T13:20:08.672398"}
+{"action": "restart", "service_name": "inventory", "reason": "Service crashed multiple times with CRASHED status_code logs.", "timestamp": "2025-10-22T13:20:25.677753"}
+{"action": "restart", "service_name": "payment", "reason": "Service has multiple 500 error codes indicating unhealthy state.", "timestamp": "2025-10-22T13:20:42.058400"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T13:20:58.490225"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:21:14.595944"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:21:30.597949"}
+{"action": "restart", "service_name": "inventory", "reason": "The inventory service is consistently reporting a 500 status code, indicating it is unhealthy.", "timestamp": "2025-10-22T13:21:47.107872"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:22:03.244224"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:22:19.465029"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 error status codes indicating it is unhealthy.", "timestamp": "2025-10-22T13:22:36.170615"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:22:52.398838"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:23:08.439802"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:23:24.396667"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:23:40.408669"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:23:56.682455"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is unhealthy with multiple 500 error codes.", "timestamp": "2025-10-22T13:24:13.117618"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is consistently unhealthy with multiple 500 error codes.", "timestamp": "2025-10-22T13:24:29.638989"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:24:45.596700"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:25:01.799907"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:25:17.760456"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:25:33.850389"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:25:49.809821"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:26:05.847646"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:26:22.021245"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:26:38.380405"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:26:54.812990"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:27:11.140023"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:27:28.043130"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:27:44.525608"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:28:00.851165"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:28:17.756188"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:28:34.127130"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:28:50.482385"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:29:06.790828"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:29:23.802514"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:29:40.265147"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:29:56.647410"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:30:13.129288"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:30:29.484889"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:30:45.803983"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:31:02.333842"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:31:18.748071"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:31:35.255295"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:31:52.549761"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:32:08.867137"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:32:25.250665"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:32:41.545129"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:32:57.925808"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:33:14.289722"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:33:30.621744"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:33:47.155104"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:34:03.639370"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:34:20.199951"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:34:36.602971"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:34:52.344319"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:35:08.289737"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:35:24.237003"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:35:40.152361"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:35:56.047695"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:36:11.783642"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:36:27.779527"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:36:43.819575"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:36:59.603978"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:37:15.562653"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:37:31.335740"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T13:37:47.578804"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:38:03.631913"}
+{"action": "restart", "service_name": "payment", "reason": "Service had multiple 500 error status codes, indicating it is unhealthy.", "timestamp": "2025-10-22T13:38:20.138916"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:38:36.103533"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:38:52.097086"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:39:08.404573"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:39:24.425979"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:39:40.418305"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:39:56.581206"}
+{"action": "restart", "service_name": "payment", "reason": "Service had multiple 500 status code errors indicating it is unhealthy.", "timestamp": "2025-10-22T13:40:13.024076"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes indicating errors.", "timestamp": "2025-10-22T13:40:29.924305"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 errors, indicating it is unhealthy.", "timestamp": "2025-10-22T13:40:46.322179"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T13:41:02.568470"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T13:41:18.796857"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:41:34.719546"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:41:50.820651"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:42:06.816974"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:42:22.979677"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is consistently returning 500 errors, indicating it is unhealthy.", "timestamp": "2025-10-22T13:42:39.352984"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:42:55.403035"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T13:43:11.767746"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 error status codes.", "timestamp": "2025-10-22T13:43:28.204762"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:43:44.386068"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:44:00.458683"}
+{"action": "restart", "service_name": "payment", "reason": "Service had multiple 500 status codes, indicating it is unhealthy.", "timestamp": "2025-10-22T13:44:16.897843"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:44:32.908594"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T13:44:51.135967"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:45:07.068619"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:45:25.300758"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:45:41.337022"}
+{"action": "restart", "service_name": "inventory", "reason": "The inventory service had two 500 status codes indicating it is consistently unhealthy.", "timestamp": "2025-10-22T13:45:58.014007"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T13:46:14.465559"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T13:46:30.824940"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:46:46.876914"}
+{"action": "restart", "service_name": "inventory", "reason": "The inventory service had multiple 500 error status codes, indicating it is unhealthy.", "timestamp": "2025-10-22T13:47:03.355060"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:47:19.437474"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:47:35.346833"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:47:51.350213"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:48:07.393052"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T13:48:23.635773"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:48:39.679884"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:48:55.667076"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T13:49:11.895829"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 error codes, indicating it is unhealthy.", "timestamp": "2025-10-22T13:49:28.341056"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:49:44.354744"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T13:50:01.020110"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:50:17.137399"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:50:33.095201"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is consistently returning 500 error codes, indicating it is unhealthy.", "timestamp": "2025-10-22T13:50:50.232983"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is consistently returning 500 error codes indicating an unhealthy state.", "timestamp": "2025-10-22T13:51:06.425825"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is consistently returning 500 status codes, indicating an unhealthy state.", "timestamp": "2025-10-22T13:51:22.936009"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is consistently returning 500 errors indicating an unhealthy state.", "timestamp": "2025-10-22T13:51:39.253870"}
+{"action": "restart", "service_name": "inventory", "reason": "The inventory service had multiple 500 error status codes, indicating it is unhealthy.", "timestamp": "2025-10-22T13:51:55.792855"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is consistently returning 500 error codes, indicating an unhealthy state.", "timestamp": "2025-10-22T13:52:12.598626"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:52:28.565573"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:52:44.553437"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T13:53:00.830421"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:53:16.921324"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:53:33.004429"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T13:53:49.265512"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:54:05.275871"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:54:50.117129"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T13:55:06.906022"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is consistently unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T13:55:34.815665"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:55:54.292173"}
+{"action": "none", "reason": "AI analysis failed: Could not connect to the endpoint URL: \"https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-sonnet-20240229-v1%3A0/invoke\"", "timestamp": "2025-10-22T13:57:06.903820"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 error codes.", "timestamp": "2025-10-22T13:57:39.753446"}
+{"action": "restart", "service_name": "payment", "reason": "Service is experiencing multiple 500 errors indicating an unhealthy state.", "timestamp": "2025-10-22T13:58:06.090238"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:58:22.569441"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:58:43.333479"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T13:59:02.865018"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T13:59:18.881685"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T14:01:29.093158"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:01:45.159416"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:02:02.344587"}
+{"action": "restart", "service_name": "payment", "reason": "Service is reporting multiple 500 errors, indicating it is unhealthy.", "timestamp": "2025-10-22T14:02:18.693481"}
+{"action": "restart", "service_name": "inventory", "reason": "The inventory service has multiple 500 error status codes, indicating an unhealthy state.", "timestamp": "2025-10-22T14:02:35.140160"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is consistently unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T14:02:51.578669"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:03:07.593783"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:03:23.696802"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:03:39.706339"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T14:03:55.998878"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 errors indicating it is unhealthy.", "timestamp": "2025-10-22T14:04:12.478465"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T14:04:28.851744"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes indicating errors.", "timestamp": "2025-10-22T14:04:46.313600"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T14:05:05.250428"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T14:05:22.093701"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:05:39.318831"}
+{"action": "restart", "service_name": "payment", "reason": "Service returned a 500 error status code, indicating it is unhealthy.", "timestamp": "2025-10-22T14:05:57.742114"}
+{"action": "restart", "service_name": "inventory", "reason": "The inventory service is consistently returning a 500 status code, indicating an unhealthy state.", "timestamp": "2025-10-22T14:06:16.179973"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:06:32.559368"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:06:50.477756"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:07:06.569404"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T14:07:22.922508"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is returning a mix of 200 and 500 status codes, indicating an unhealthy state.", "timestamp": "2025-10-22T14:07:39.552292"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:07:55.611753"}
+{"action": "restart", "service_name": "payment", "reason": "The payment service has multiple 500 status codes indicating it is unhealthy.", "timestamp": "2025-10-22T14:08:11.899475"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:08:27.891332"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T14:08:44.433389"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:09:00.428447"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:09:16.506750"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:09:32.691141"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:09:48.683044"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:10:04.840317"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is consistently unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T14:10:21.232165"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is consistently unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T14:10:37.605891"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T14:10:54.198515"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is showing multiple 500 errors indicating it is unhealthy.", "timestamp": "2025-10-22T14:11:10.526997"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is consistently returning 500 status codes indicating an unhealthy state.", "timestamp": "2025-10-22T14:11:26.970494"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is consistently returning 500 error codes, indicating an unhealthy state.", "timestamp": "2025-10-22T14:11:43.656872"}
+{"action": "restart", "service_name": "inventory", "reason": "The inventory service has multiple 500 status codes, indicating it is unhealthy.", "timestamp": "2025-10-22T14:12:00.139980"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is consistently returning 500 error codes indicating an unhealthy state.", "timestamp": "2025-10-22T14:12:16.525828"}
+{"action": "restart", "service_name": "inventory", "reason": "The inventory service is repeatedly returning 500 error codes, indicating it is unhealthy.", "timestamp": "2025-10-22T14:12:33.023419"}
+{"action": "restart", "service_name": "inventory", "reason": "Service is consistently returning 500 status codes, indicating an unhealthy state.", "timestamp": "2025-10-22T14:12:49.598836"}
+{"action": "restart", "service_name": "payment", "reason": "Service had multiple 500 status codes indicating it is unhealthy.", "timestamp": "2025-10-22T14:13:06.020232"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T14:13:22.315070"}
+{"action": "none", "reason": "AI analysis failed: An error occurred (InvalidSignatureException) when calling the InvokeModel operation: Signature expired: 20251022T211329Z is now earlier than 20251022T211449Z (20251022T211949Z - 5 min.)", "timestamp": "2025-10-22T14:19:50.035225"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T14:20:06.562537"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T14:20:23.031611"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T14:20:39.345828"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple CRASHED logs.", "timestamp": "2025-10-22T14:20:55.679650"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:21:12.804538"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:21:28.769599"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:21:44.836571"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:22:00.849319"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:22:17.577267"}
+{"action": "restart", "service_name": "payment", "reason": "Service is experiencing intermittent 500 error codes indicating an unhealthy state.", "timestamp": "2025-10-22T14:22:34.305881"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:22:50.390630"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:23:06.732116"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:23:22.953269"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:23:39.117310"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes, indicating an unhealthy state.", "timestamp": "2025-10-22T14:23:55.708515"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T14:24:12.497409"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:24:44.212813"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:25:07.505954"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:25:35.194568"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:26:07.567618"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:26:36.043097"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:26:52.238227"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:27:16.679772"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:27:49.631749"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:28:05.869300"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 error codes indicating it is unhealthy.", "timestamp": "2025-10-22T14:28:22.364882"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:28:38.548420"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:28:54.610886"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:29:10.613797"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:29:27.446726"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:29:44.447876"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:30:00.385727"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:30:16.735423"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:30:32.901941"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:30:49.003381"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:31:04.963442"}
+{"action": "restart", "service_name": "payment", "reason": "Service is intermittently unhealthy with multiple 500 error status codes.", "timestamp": "2025-10-22T14:31:21.321166"}
+{"action": "restart", "service_name": "payment", "reason": "Service experienced multiple 500 error status codes indicating unhealthy state.", "timestamp": "2025-10-22T14:31:37.836398"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:31:53.859880"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:32:09.993162"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:32:26.097903"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:32:42.230941"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:32:58.529236"}
+{"action": "restart", "service_name": "payment", "reason": "Service is experiencing intermittent 500 errors, likely unresponsive.", "timestamp": "2025-10-22T14:33:14.920223"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 error status codes, indicating an unhealthy state.", "timestamp": "2025-10-22T14:33:31.430712"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:33:48.386749"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:34:04.531224"}
+{"action": "restart", "service_name": "payment", "reason": "Service is experiencing multiple 500 error status codes indicating an unhealthy state.", "timestamp": "2025-10-22T14:34:21.298026"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:34:37.277743"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:34:53.494696"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:35:09.541691"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:35:25.639511"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:35:41.764519"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:35:57.701124"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:36:13.854234"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:36:29.817846"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:36:45.763106"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:37:01.799908"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 error codes, indicating an unhealthy state.", "timestamp": "2025-10-22T14:37:18.578142"}
+{"action": "restart", "service_name": "payment", "reason": "Service is showing intermittent 500 errors, indicating it is unhealthy.", "timestamp": "2025-10-22T14:37:34.970819"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:37:51.055361"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T14:38:07.439559"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:38:23.500450"}
+{"action": "restart", "service_name": "payment", "reason": "Service is experiencing multiple 500 errors, indicating it is unhealthy.", "timestamp": "2025-10-22T14:38:40.003524"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes indicating errors.", "timestamp": "2025-10-22T14:38:56.575812"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes indicating an unhealthy state.", "timestamp": "2025-10-22T14:39:13.141599"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 errors indicating an unhealthy state.", "timestamp": "2025-10-22T14:39:29.416741"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:39:45.463070"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:40:01.524647"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:40:17.481508"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T14:40:33.923155"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T14:40:50.310236"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 error codes, indicating it is unhealthy.", "timestamp": "2025-10-22T14:41:07.568663"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T14:41:23.978758"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:41:40.166978"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:41:56.273669"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:42:12.380335"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:42:28.496595"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:42:44.599890"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:43:00.628264"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:43:16.611268"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:43:33.403802"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:43:49.379039"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T14:44:05.755013"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:44:21.857099"}
+{"action": "restart", "service_name": "payment", "reason": "Service is showing intermittent 500 errors, indicating it is unhealthy.", "timestamp": "2025-10-22T14:44:38.430330"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:44:54.533313"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:45:10.825112"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 errors.", "timestamp": "2025-10-22T14:45:27.190278"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:45:43.340794"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:45:59.363209"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:46:15.826015"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:46:32.102173"}
+{"action": "restart", "service_name": "payment", "reason": "Service is intermittently returning 500 errors, indicating an unhealthy state.", "timestamp": "2025-10-22T14:46:48.731974"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 error codes which indicates an unhealthy state.", "timestamp": "2025-10-22T14:47:05.289609"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:47:21.518930"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:47:37.730934"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:47:53.947398"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 status codes, indicating an unhealthy state.", "timestamp": "2025-10-22T14:48:10.519913"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:48:26.548208"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:48:42.506055"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:48:58.635862"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:49:14.671889"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:49:30.726792"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:49:46.756696"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 error codes, indicating it is unhealthy.", "timestamp": "2025-10-22T14:50:03.115670"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:50:19.153829"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:50:35.313988"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes indicating errors.", "timestamp": "2025-10-22T14:50:51.595471"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 error codes, indicating an unhealthy state.", "timestamp": "2025-10-22T14:51:07.964182"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 errors, indicating an unhealthy state.", "timestamp": "2025-10-22T14:51:24.520394"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:51:40.570140"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:51:56.624930"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:52:12.507257"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:52:28.445693"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:52:44.458606"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:53:00.571322"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:53:16.658665"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:53:32.734910"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:53:48.752682"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:54:04.823049"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:54:20.930251"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:54:37.017011"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:54:53.023855"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:55:08.937938"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:55:25.024574"}
+{"action": "restart", "service_name": "payment", "reason": "Service is showing intermittent 500 errors, indicating an unhealthy state.", "timestamp": "2025-10-22T14:55:41.298651"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:55:57.291713"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:56:16.479208"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:56:32.484612"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:56:48.522292"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:57:04.544426"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:57:20.538067"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:57:36.533913"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:57:52.666050"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:58:08.880078"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:58:25.220077"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:58:41.360818"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:58:57.727863"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:59:13.815648"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T14:59:30.780074"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T14:59:46.973514"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T15:00:03.288345"}
+{"action": "restart", "service_name": "payment", "reason": "Service is showing multiple 500 status codes indicating it is unhealthy.", "timestamp": "2025-10-22T15:00:19.683921"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 error status codes, indicating an unhealthy state.", "timestamp": "2025-10-22T15:00:36.565789"}
+{"action": "restart", "service_name": "payment", "reason": "Service is reporting multiple 500 errors which indicates it is unhealthy.", "timestamp": "2025-10-22T15:00:52.940733"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:01:09.022047"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:01:25.076212"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:01:41.112459"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:01:57.190922"}
+{"action": "restart", "service_name": "payment", "reason": "Service is showing intermittent 500 errors which indicates an unhealthy state.", "timestamp": "2025-10-22T15:02:13.780979"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes indicating errors.", "timestamp": "2025-10-22T15:02:30.297355"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:02:46.519073"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:03:02.581279"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:03:18.778094"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:03:34.813025"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:03:50.837972"}
+{"action": "restart", "service_name": "payment", "reason": "Service is showing intermittent 500 errors, indicating it is unhealthy.", "timestamp": "2025-10-22T15:04:07.297043"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:04:23.408455"}
+{"action": "restart", "service_name": "payment", "reason": "Service is returning 500 error codes multiple times, indicating an unhealthy state.", "timestamp": "2025-10-22T15:04:41.757014"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:04:59.715284"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:05:16.006438"}
+{"action": "restart", "service_name": "payment", "reason": "Service is reporting multiple 500 errors, indicating it is unhealthy.", "timestamp": "2025-10-22T15:05:35.381204"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 error codes indicating it is unhealthy.", "timestamp": "2025-10-22T15:05:58.370722"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:06:16.858401"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:06:34.435569"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:06:54.232252"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T15:07:13.452098"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 error status codes, indicating it is unhealthy.", "timestamp": "2025-10-22T15:07:29.944340"}
+{"action": "restart", "service_name": "payment", "reason": "Service is experiencing intermittent errors with status code 500.", "timestamp": "2025-10-22T15:07:46.316339"}
+{"action": "restart", "service_name": "payment", "reason": "Service is experiencing multiple 500 error responses, indicating an unhealthy state.", "timestamp": "2025-10-22T15:08:02.612722"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status_code errors.", "timestamp": "2025-10-22T15:08:19.162343"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 errors in the logs, indicating it is unhealthy.", "timestamp": "2025-10-22T15:08:35.965186"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T15:08:52.462121"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:09:08.394350"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:09:24.560571"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:09:41.158998"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:09:57.397414"}
+{"action": "restart", "service_name": "payment", "reason": "Service experienced multiple 500 status codes indicating errors. A restart is recommended to restore service health.", "timestamp": "2025-10-22T15:10:13.946449"}
+{"action": "restart", "service_name": "payment", "reason": "Service is exhibiting unhealthy behavior with multiple 500 status codes.", "timestamp": "2025-10-22T15:10:30.403518"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:10:46.473055"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:11:02.714205"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:11:18.801053"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:11:34.945309"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:11:51.061072"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:12:07.153270"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:12:23.328555"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:12:39.374117"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:12:55.483151"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:13:11.639599"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:13:27.735683"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:13:43.708215"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:13:59.850765"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:14:15.811304"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:14:32.340175"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:14:48.663478"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:15:04.917544"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T15:15:21.213872"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 error codes indicating unhealthy state.", "timestamp": "2025-10-22T15:15:37.570582"}
+{"action": "restart", "service_name": "payment", "reason": "Service is exhibiting multiple 500 errors indicating an unhealthy state.", "timestamp": "2025-10-22T15:15:53.943299"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 errors, indicating an unhealthy state.", "timestamp": "2025-10-22T15:16:11.071632"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:16:27.008290"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T15:16:44.021250"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 error status codes.", "timestamp": "2025-10-22T15:17:00.389899"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 error codes, indicating an unhealthy state.", "timestamp": "2025-10-22T15:17:17.101713"}
+{"action": "restart", "service_name": "payment", "reason": "Service is experiencing multiple 500 status codes indicating an unhealthy state.", "timestamp": "2025-10-22T15:17:34.290380"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:17:50.333215"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:18:06.292730"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:18:22.296183"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:18:38.472317"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:18:54.614479"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:19:10.619868"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:19:26.681748"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:19:43.045755"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:19:59.190294"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:20:15.190037"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:20:31.237867"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:20:47.225607"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:21:03.144376"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:21:19.109305"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:21:35.319490"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:21:51.278073"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:22:07.285919"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:22:23.442975"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:22:39.405632"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:22:55.363717"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:23:11.360370"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:23:27.462606"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:23:43.496324"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:23:59.592834"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:24:15.643402"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently showing 500 errors, indicating it is unhealthy.", "timestamp": "2025-10-22T15:24:32.066321"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T15:24:48.408376"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes indicating an unhealthy state.", "timestamp": "2025-10-22T15:25:05.636369"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:25:22.418286"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:25:38.340628"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:25:54.343929"}
+{"action": "restart", "service_name": "payment", "reason": "Service is experiencing intermittent 500 errors, indicating it is unhealthy.", "timestamp": "2025-10-22T15:26:10.873241"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently reporting 500 status codes, indicating an unhealthy state.", "timestamp": "2025-10-22T15:26:27.355414"}
+{"action": "restart", "service_name": "payment", "reason": "Service is showing inconsistent behavior with multiple 500 error codes, indicating it is unhealthy.", "timestamp": "2025-10-22T15:26:43.910261"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 errors, indicating an unhealthy state.", "timestamp": "2025-10-22T15:27:00.439012"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:27:16.437285"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T15:27:32.718442"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:27:48.843986"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T15:28:07.030862"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:28:23.194819"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:28:39.068442"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes indicating errors.", "timestamp": "2025-10-22T15:28:55.493828"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 status codes, indicating an unhealthy state.", "timestamp": "2025-10-22T15:29:11.941546"}
+{"action": "restart", "service_name": "payment", "reason": "Service is reporting multiple 500 errors which indicates it is unhealthy.", "timestamp": "2025-10-22T15:29:28.378586"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 error codes, indicating it is unhealthy.", "timestamp": "2025-10-22T15:29:44.702311"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:30:00.982748"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 status codes, indicating an unhealthy state.", "timestamp": "2025-10-22T15:30:17.409754"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:30:33.962313"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T15:30:50.417531"}
+{"action": "restart", "service_name": "payment", "reason": "Service is intermittently returning 500 status codes, indicating an unhealthy state.", "timestamp": "2025-10-22T15:31:06.903435"}
+{"action": "restart", "service_name": "payment", "reason": "Service is experiencing multiple 500 errors indicating an unhealthy state.", "timestamp": "2025-10-22T15:31:23.339239"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:31:39.566382"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:31:55.669458"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:32:11.712824"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:32:28.090775"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently unhealthy with multiple 500 error codes.", "timestamp": "2025-10-22T15:32:44.478652"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:33:01.195404"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 errors, indicating it is unhealthy.", "timestamp": "2025-10-22T15:33:18.911327"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:33:35.015689"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:33:51.061645"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:34:07.152476"}
+{"action": "restart", "service_name": "payment", "reason": "Service has multiple 500 status codes indicating it is unhealthy.", "timestamp": "2025-10-22T15:34:23.547385"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes indicating errors.", "timestamp": "2025-10-22T15:34:40.002022"}
+{"action": "restart", "service_name": "payment", "reason": "Service is showing multiple 500 status codes, indicating it is unhealthy.", "timestamp": "2025-10-22T15:34:56.399652"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 error codes.", "timestamp": "2025-10-22T15:35:12.703142"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently unhealthy with multiple 500 error codes.", "timestamp": "2025-10-22T15:35:29.020727"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:35:45.139241"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 error codes, indicating an unhealthy state.", "timestamp": "2025-10-22T15:36:01.662114"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:36:17.711792"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:36:33.698002"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:36:49.715083"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:37:05.728226"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:37:21.787726"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:37:38.081708"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:37:54.088665"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:38:10.266605"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:38:26.301259"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:38:42.319443"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:38:58.311975"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:39:14.587541"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T15:39:30.876106"}
+{"action": "restart", "service_name": "payment", "reason": "Service is reporting multiple 500 status codes, indicating an unhealthy state.", "timestamp": "2025-10-22T15:39:47.487050"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 error codes, indicating an unhealthy state.", "timestamp": "2025-10-22T15:40:05.523417"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:40:21.706144"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:40:37.715593"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:40:53.703920"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:41:09.783735"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:41:25.882417"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:41:41.813529"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:41:57.851351"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:42:14.166524"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:42:30.382166"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:42:46.508414"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:43:02.646779"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:43:18.689219"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:43:34.722087"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:43:51.289222"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:44:07.292133"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:44:23.312617"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:44:39.385075"}
+{"action": "restart", "service_name": "payment", "reason": "Service is returning multiple 500 errors, indicating it is unhealthy.", "timestamp": "2025-10-22T15:44:56.162877"}
+{"action": "restart", "service_name": "payment", "reason": "Service is intermittently unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T15:45:13.159315"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:45:29.696690"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:45:45.803086"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:46:02.214890"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:46:18.473793"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:46:34.728621"}
+{"action": "restart", "service_name": "payment", "reason": "Service is experiencing intermittent 500 errors, indicating it is unhealthy.", "timestamp": "2025-10-22T15:46:51.582308"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T15:47:08.400691"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:47:24.580289"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:47:40.718438"}
+{"action": "restart", "service_name": "payment", "reason": "Service is experiencing intermittent 500 errors indicating an unhealthy state.", "timestamp": "2025-10-22T15:47:58.010639"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:48:14.177524"}
+{"action": "restart", "service_name": "payment", "reason": "Service is unresponsive with multiple 500 status codes.", "timestamp": "2025-10-22T15:48:30.658344"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:48:46.777503"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:49:02.921359"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently unhealthy with multiple 500 status codes.", "timestamp": "2025-10-22T15:49:20.124046"}
+{"action": "restart", "service_name": "payment", "reason": "Service is consistently returning 500 error codes, indicating an unhealthy state.", "timestamp": "2025-10-22T15:49:37.025718"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:49:53.316898"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:50:09.583330"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:50:26.283758"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:50:42.391538"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:50:58.451175"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:51:14.574755"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:51:30.925983"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:51:47.136500"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:52:03.356608"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:52:19.423713"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:52:35.512730"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:52:51.615469"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:53:08.673144"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:53:24.901052"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:53:41.388177"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:53:57.761054"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:54:14.513796"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:54:30.787752"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:54:47.075452"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:55:03.421525"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:55:21.555690"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:55:37.778689"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:55:54.240581"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:56:10.452334"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:56:27.093121"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:56:43.253678"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:56:59.302726"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:57:15.637843"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:57:31.961439"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:57:48.292829"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:58:04.844597"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:58:20.916415"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:58:37.026560"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:58:53.634325"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:59:10.012540"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:59:26.221609"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:59:42.317238"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T15:59:58.531782"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:00:14.627087"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:00:30.763001"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:00:46.841280"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:01:03.201629"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:01:20.210155"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:01:37.013820"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:01:53.150300"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:02:09.686265"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:02:25.843491"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:02:41.966675"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:02:58.120392"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:03:14.165784"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:03:30.217182"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:03:46.406603"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:04:02.919612"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:04:19.511977"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:04:36.703705"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:04:53.125258"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:05:13.273482"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:05:29.671675"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:05:49.430106"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:06:07.864559"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:06:24.298693"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:06:42.123972"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:06:58.819770"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:07:16.564865"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:07:35.599490"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:07:51.708825"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:08:07.907211"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:08:24.377421"}
+{"action": "none", "reason": "AI analysis failed: Could not connect to the endpoint URL: \"https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-sonnet-20240229-v1%3A0/invoke\"", "timestamp": "2025-10-22T16:10:03.653906"}
+{"action": "none", "reason": "AI analysis failed: Could not connect to the endpoint URL: \"https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-sonnet-20240229-v1%3A0/invoke\"", "timestamp": "2025-10-22T16:10:36.367050"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:11:05.763411"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:14:04.093074"}
+{"action": "none", "reason": "AI analysis failed: Could not connect to the endpoint URL: \"https://bedrock-runtime.us-east-1.amazonaws.com/model/anthropic.claude-3-sonnet-20240229-v1%3A0/invoke\"", "timestamp": "2025-10-22T16:15:26.646078"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:15:48.405544"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:16:04.883452"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:16:21.536040"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:16:37.922288"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:16:54.391606"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:17:18.430067"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:17:35.408243"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:17:52.002021"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:18:09.041695"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:18:25.895650"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:18:42.433812"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:18:59.248399"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:19:15.369695"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:19:32.231013"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:19:48.734198"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:20:05.003132"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:20:21.228735"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:20:37.420329"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:20:53.481645"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:21:10.457507"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:21:27.011512"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:21:43.244652"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:22:00.480095"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:22:17.013056"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:22:33.482860"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:22:49.601649"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:23:05.623069"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:23:22.619931"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:23:38.947920"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:23:55.762411"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:24:36.912496"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:24:54.962619"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:25:11.071413"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:25:27.571860"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:25:43.902242"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:26:01.934644"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:26:20.243630"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:26:47.802445"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:27:04.863248"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:27:21.571170"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:27:37.991229"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:27:59.735287"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:28:15.975441"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:28:32.050539"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:28:49.307287"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:29:06.721218"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:29:23.778196"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:29:39.933077"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:29:56.780642"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:30:13.358301"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:30:30.563419"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:30:49.199907"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:31:06.964438"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:31:23.125336"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:32:14.383186"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:32:30.829983"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:32:47.013083"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:33:03.849790"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:33:20.369602"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:33:38.133665"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:33:57.252400"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:34:13.316524"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:34:29.500358"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:34:45.979330"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:35:05.044537"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:35:21.137719"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:35:37.488295"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:35:53.778531"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:36:09.953283"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:36:26.921994"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:36:43.127463"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:36:59.836912"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:37:19.623504"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:37:41.324745"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:38:01.757400"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:38:19.332565"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:38:35.512958"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:38:51.962003"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:39:08.982638"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:39:25.139847"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:39:41.364880"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:39:57.472791"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:40:14.007645"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:40:30.586543"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:40:46.949420"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:41:03.216588"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:41:19.245939"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:41:35.398485"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:41:51.853455"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:42:08.276621"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:42:24.554922"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:42:40.873595"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:42:57.072310"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:43:13.417884"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:43:29.802761"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:43:45.942000"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:44:02.197568"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:44:18.534443"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:44:35.213703"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:44:53.460864"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:45:10.064709"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:45:26.031414"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:45:42.797293"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:45:59.147929"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:46:15.424933"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:46:32.718278"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:46:49.024126"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:47:06.323795"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:47:23.311059"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:47:40.305748"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:47:57.426232"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:48:13.596051"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:48:29.940030"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:48:46.216623"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:49:03.355209"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:49:19.535676"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:49:35.697178"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:49:51.772293"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:50:09.138793"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:50:27.199231"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:50:45.423751"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:51:02.500198"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:51:18.921805"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:51:35.257720"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:51:51.518919"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:52:08.830843"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:52:25.033861"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:52:41.306509"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:52:59.533971"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:53:35.817793"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:53:53.882021"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:54:10.223939"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:54:26.445839"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:54:43.057091"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:55:00.092059"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:55:17.267491"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:55:33.734215"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:55:50.016473"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:56:07.004326"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:56:23.211315"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:56:40.044167"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:56:56.483913"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:57:13.838236"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:57:30.418508"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:57:47.366972"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:58:05.396705"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:58:22.874482"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:58:42.297291"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:58:59.534203"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:59:15.930856"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:59:32.502582"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T16:59:48.814398"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:00:04.938773"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:00:21.097891"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:00:37.387158"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:00:53.717146"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:01:10.938447"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:01:28.975418"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:01:47.029980"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:02:03.435569"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:02:21.095593"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:02:39.825336"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:02:59.347620"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:03:18.361779"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:03:34.618402"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:03:52.734888"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:04:08.819103"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:04:25.268289"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:04:41.292650"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:04:58.000479"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:05:15.553798"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:05:32.197598"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:05:48.374639"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:06:05.100429"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:06:25.668902"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:06:50.444344"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:07:28.239429"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:07:45.126813"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:08:02.789293"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:08:18.904035"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:08:35.096004"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:08:52.299018"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:09:08.483311"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:09:24.477869"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:09:40.619276"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:09:57.018154"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:10:13.194458"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:10:29.272530"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:10:45.455663"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:11:01.629524"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:11:18.825056"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:11:43.250415"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:12:03.455920"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:12:35.602872"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:12:52.414177"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:13:20.702833"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:13:47.314672"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:14:04.148785"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:14:20.507942"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:14:37.843622"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:15:45.313771"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:16:07.211782"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:16:26.301749"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:16:43.235837"}
+{"action": "none", "reason": "All services are operating normally.", "timestamp": "2025-10-22T17:17:01.860060"}
