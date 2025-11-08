@@ -25,7 +25,7 @@ Built to simulate autonomous cloud recovery on a single EC2 instance using Docke
 ## 🧩 Architecture
 
 Monitor → Healer Agent (Bedrock AI) → Remediation Actions (Restart / Reboot / Scale)
-![System Architecture Diagram](../docs/architecture_diagram.png)
+![System Architecture Diagram](./docs/architecture-diagram.png)
 
 (1) services are started on EC2 instances, and their health status is posted at their /health endpoint. 2) The monitor sends periodic HTTP requests to each service’s /health endpoint, logging response codes and latency.
 a) When a service returns repeated 500 errors or becomes unresponsive, it’s marked unhealthy or “CRASHED.” For OS-level issues, timeouts, failed EC2 instance checks via describe_instance_status, or CloudWatch metrics like zero CPU utilization indicate that the underlying machine or container has failed. 3) Periodically, the healer reads the logs of the monitor, and uses AWS Bedrock to analyze them.
