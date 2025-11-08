@@ -6,3 +6,6 @@ goals.txt
 *.pem
 *.ppk
 *.key
+
+commands.rest
+
