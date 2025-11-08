@@ -29,11 +29,11 @@ This diagram describes the attachment of two EC2 instances to the healer, but in
 
 **(1)** services are started on EC2 instances, and their health status is posted at their /health endpoint. 
 
-**(2)** The monitor sends periodic HTTP requests to each service’s /health endpoint, logging response codes and latency. (see Note A for more details)
+**(2)** The monitor sends periodic HTTP requests to each service’s /health endpoint, logging response codes and latency. (see **Note A** for more details)
 
-**(3)** Periodically, the healer reads the logs of the monitor, and uses AWS Bedrock to analyze them. (see Note B for more details)
+**(3)** Periodically, the healer reads the logs of the monitor, and uses AWS Bedrock to analyze them. (see **Note B** for more details)
 
-**(4)** Based on AWS Bedrock's decision, the healer performs remediation action. (see Note C for more details)
+**(4)** Based on AWS Bedrock's decision, the healer performs remediation action. (see **Note C** for more details)
 
 **(5)** The logs from the monitor and the actions of the healer are fed into and displayed through the Streamlit frontend.
 
