@@ -11,8 +11,9 @@ if not os.path.exists(data_dir):
 
 LOG_FILE = os.path.join(data_dir, 'logs.json')
 SERVERS = {
-    "payment": "http://127.0.0.1:5001/health",
-    "inventory": "http://127.0.0.1:5002/health"
+    "payment": "http://127.0.0.1:5002/health",
+    # "inventory": "http://127.0.0.1:5002/health"
+    # "payment": "http://54.186.48.127:3000/health"
 }
 
 print("Starting monitoring agent...")
@@ -20,12 +21,14 @@ while True:
     for name, url in SERVERS.items():
         log_entry = {
             "service": name,
-            "url": url,
+            "url": "http://54.186.48.127:3000/health",
             "timestamp": datetime.datetime.now().isoformat(),
             "status_code": None,
             "response_body": None,
             "latency_ms": None
         }
+        
+        # http://54.186.48.127
         
         try:
             start_time = time.time()

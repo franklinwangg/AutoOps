@@ -1,0 +1,4 @@
+[behavior]
+status = "crash"                  # Process exits immediately
+delay = 0
+crash = true

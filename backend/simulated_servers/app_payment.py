@@ -23,4 +23,5 @@ def health_check():
 
 if __name__ == '__main__':
     # Runs on port 5001. use_reloader=False is important for our restart script to work properly.
-    app.run(port=5001, debug=True, use_reloader=False)
+    # app.run(port=5001, debug=True, use_reloader=False)
+    app.run(host='0.0.0.0', port=5001, debug=True, use_reloader=False)

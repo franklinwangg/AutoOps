@@ -1,0 +1,4 @@
+[behavior]
+status = "error" # Always returns HTTP 500
+delay = 200 # Slight delay before failure
+crash = false
